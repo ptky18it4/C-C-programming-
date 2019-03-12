@@ -11,14 +11,6 @@ void InChuoi( char chuoi[]){
 void DaoChuoi(char chuoi[]){
 	printf("\nChuoi sau khi dao nguoc : %s",strrev(chuoi));
 }
-void TachDong(char chuoi[]){
-	for(int i=0 ; i <strlen(chuoi);i++){
-		if(chuoi[i]==' '){
-			printf("\n");
-	}else{
-	printf("%s",chuoi);
-	}
-}}
 void DemTu(char chuoi[]){
 	int dem=0;
 	for(int i=0 ; i <strlen(chuoi);i++){
